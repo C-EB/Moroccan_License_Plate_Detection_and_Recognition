@@ -323,22 +323,22 @@ print("Detected Plate Text:", result)
 
 ### Outputs
 
-- **Detected Plates:** Bounding boxes around detected license plates on the input image.
+- **Image Outputs:** The system saves and displays images with detected plates and segmented plate characters.
 - **Plate Text:** The text extracted from the license plate, showing the numbers and letters, including Arabic characters.
 
 ```plaintext
 Enter the path of the image: ./test_images/porsche.png
 Enter OCR mode (trained/tesseract): trained
 ```
-![detected_plate]()
+![detected_plate](assets/images/detected_plate.png)
 
-![croped_image]()
+![croped_image](assets/images/croped_plate.png)
 
-![segmeted_image]()
+![segmeted_image](assets/images/segmented_plate.png)
 ```plaintext
 Detected Plate Text: 666 | ﻭ | 1
 ```
-- **Image Outputs:** The system saves and displays images with detected plates and segmented plate characters.
+
 
 ## Conclusion
 
