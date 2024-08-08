@@ -327,7 +327,7 @@ print("Detected Plate Text:", result)
 - **Plate Text:** The text extracted from the license plate, showing the numbers and letters, including Arabic characters.
 
 ```plaintext
-Enter the path of the image: ./test_images/porsche.png
+Enter the path of the image: ./license_plate_detection/MLPDR/test_images/porshe.png
 Enter OCR mode (trained/tesseract): trained
 ```
 ![detected_plate](assets/images/detected_plate.png)
