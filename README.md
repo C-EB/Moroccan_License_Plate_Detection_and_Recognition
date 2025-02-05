@@ -339,6 +339,28 @@ Enter OCR mode (trained/tesseract): trained
 Detected Plate Text: 666 | ﻭ | 1
 ```
 
+## Streamlit Web Interface
+
+To make the model more accessible and user-friendly, I developed a Streamlit web interface that allows users to interact with the license plate detection system through a simple web browser.
+
+### Features
+- Drag-and-drop image upload
+- Real-time license plate detection and recognition
+- Visual display of detection steps:
+  - Original image
+  - Detected license plate
+  - Segmented characters
+  - Final recognition results
+- Option to switch between OCR modes (Trained model vs Tesseract)
+
+### Interface Screenshots
+
+
+![streamlit_main](assets/images/License_plate_detection_and_recognition.png)
+*Main interface with image upload area*
+
+![streamlit_results](assets/images/License_plate_detection_and_recognition_1.gif)
+*Results page showing detection and recognition steps*
 
 ## Conclusion
 
